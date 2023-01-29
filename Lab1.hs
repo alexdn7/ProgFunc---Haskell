@@ -1,3 +1,10 @@
+{- 6. Să se scrie următoarele functii:
+a) functie cu 2 parametri care calculeaza suma pătratelor celor două numere;
+b) functie cu un parametru ce întoarce mesajul “par” dacă parametrul este par si “impar” altfel;
+c) functie care calculează factorialul unui număr;
+d) functie care verifică dacă un primul parametru este mai mare decât dublul celui de-al doilea.
+parametru. -}
+
 -- 6 a)
 sumaPatrate :: Integer -> Integer -> Integer
 sumaPatrate a b = a * a + b * b
