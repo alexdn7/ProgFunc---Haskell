@@ -66,4 +66,4 @@ expToArb (val1 :+: val2) = Node Add (expToArb val1) (expToArb val2)
 expToArb (val1 :*: val2) = Node Mult (expToArb val1) (expToArb val2)
 
 
--- va urma
+-- va urmaa
